@@ -1,7 +1,7 @@
-// filters atomic elements. Only prints out ones that have atomic numbers between
-// 50 and 100 and filters out the ones that contain "ium" These aren't all the
-// elements. I didn't feel like writing them out. May rewrite later to read a
-// csv file
+// filters atomic elements. Only prints out ones that have atomic numbers
+// between 50 and 100 and filters out the ones that contain "ium" These aren't
+// all the elements. I didn't feel like writing them out. May rewrite later to
+// read a csv file
 
 var elementArr = [
     {
@@ -96,3 +96,4 @@ function filterAtomicElements(arr) {
 }
 
 filterAtomicElements(elementArr);
+console.log("test");
