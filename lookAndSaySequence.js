@@ -20,6 +20,7 @@ function countAndSay(n) {
                     count++;
                 } else { //if we have two unmatching numbers, push the count and what number it is to the final answer and move on
                     answerAsArray.push(count, index);
+                    count = 1;
                 }
             }
             var newFinalNumber = answerAsArray.join(""); //turn that answer array into a string
