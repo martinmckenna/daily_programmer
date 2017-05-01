@@ -1,6 +1,6 @@
 //caesar cipher. Gotta make this better
 
-const cipherPhrase = function(word, shift){
+const cipherPhrase = function(word, shift){ //takes 2 arguments: the original word and the amount of shifts
   let alphabet = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz';
   let wordToArray = word.toLowerCase().split('');
   let cipheredWord = [];
